@@ -620,4 +620,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	</div>
 </div>
 </body>
-</html>		
+</html>
+<script>
+		$.ajax({
+			url:"http://127.0.0.1:8000/v1/goods/",
+			type:"get",
+			success:function (res) {
+				console.log(res)
+			}
+		})
+</script>
